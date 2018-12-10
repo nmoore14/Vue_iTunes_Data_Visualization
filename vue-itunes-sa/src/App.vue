@@ -14,7 +14,7 @@
         </div>
       </div>
       <div class="w-1/5 items-center">
-        <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 lg:mt-0">Select Files</a>
+        <a href="#" class="w-full text-center inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-green hover:bg-white mt-4 lg:mt-0">Select Files</a>
       </div>
     </nav>
     <router-view/>
