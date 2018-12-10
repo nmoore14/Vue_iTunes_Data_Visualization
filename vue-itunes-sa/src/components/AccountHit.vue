@@ -1,6 +1,8 @@
 <template>
-	<div class="bg-indigo p-2">
-		<h2>AccountHit</h2>
+	<div class="flex-col bg-grey-light p-2">
+		<div class="flex-1 bg-grey p-4">
+			<h1 class="font-sans font-thin text-3xl text-grey-darkest text-center">Account Hit</h1>
+		</div>
 	</div>
 </template>
 
