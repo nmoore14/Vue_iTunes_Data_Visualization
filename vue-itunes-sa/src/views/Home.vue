@@ -1,18 +1,23 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="flex w-screen home">
+    <music-hit class="w-1/3 m-1 rounded"></music-hit>
+    <podcast-hit class="w-1/3 m-1 rounded"></podcast-hit>
+    <account-hit class="w-1/3 m-1 rounded"></account-hit>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import MusicHit from "@/components/MusicHit.vue";
+import PodcastHit from "@/components/PodcastHit.vue";
+import AccountHit from "@/components/AccountHit.vue";
 
 export default {
   name: "home",
   components: {
-    HelloWorld
+    MusicHit,
+    PodcastHit,
+    AccountHit
   }
 };
 </script>
