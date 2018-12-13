@@ -3,9 +3,6 @@
     <music-hit class="w-1/3 m-1 rounded"></music-hit>
     <podcast-hit class="w-1/3 m-1 rounded"></podcast-hit>
     <account-hit class="w-1/3 m-1 rounded"></account-hit>
-    <template v-if="modalShow">
-      <get-files></get-files>
-    </template>
   </div>
 </template>
 
@@ -21,8 +18,7 @@ export default {
   components: {
     MusicHit,
     PodcastHit,
-    AccountHit,
-    GetFiles
+    AccountHit
   }
 };
 </script>
